@@ -10,4 +10,4 @@ RUN apt-get update && \
 RUN pip install shadowsocks
 
 # Configure container to run as an executable
-ENTRYPOINT ["/usr/local/bin/ssserver"]
+#ENTRYPOINT ["/usr/local/bin/ssserver"]
